@@ -17,6 +17,5 @@ public class comment {
     @OneToOne(cascade = CascadeType.ALL)
     private posting post;
     private String content;
-//    @OneToOne(cascade = CascadeType.ALL)
-//    private member writer;
+    private Long memberId;
 }
